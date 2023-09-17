@@ -22,7 +22,9 @@ func on_imported_data(import_type: String, data: Array):
 		import_data(entry)
 	
 func import_data(data: Dictionary):
-	# First we'll get the id, if the id is empty we'll return
+	# First we'll try to get the id, if the id is empty or the dictionary doesn't contain ID we'll return
+	if not data.has("ID"):
+		return
 	var item_id: String = data["ID"]
 	if item_id == null or item_id == "":
 		return
