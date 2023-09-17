@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://qbyy4rf7qo6k"]
+
+[ext_resource type="Script" path="res://database/Database.gd" id="1_ydmpa"]
+
+[node name="Database" type="Node"]
+script = ExtResource("1_ydmpa")

@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bi1wxmvfu1x1i"]
+
+[ext_resource type="Script" path="res://addons/godot-gspreadsheet-importer/items_import.gd" id="1_t1t6j"]
+
+[node name="ItemsImport" type="Node"]
+script = ExtResource("1_t1t6j")
